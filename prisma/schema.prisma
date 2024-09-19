@@ -15,3 +15,10 @@ model Product {
    stock Int
 
 }
+
+model Customers {
+   id Int @id @default(autoincrement())
+   name String 
+   lastname String
+   email String
+}
