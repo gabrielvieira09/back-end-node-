@@ -16,7 +16,7 @@ model Product {
 
 }
 
-model Customers {
+model Customer {
    id Int @id @default(autoincrement())
    name String 
    lastname String
